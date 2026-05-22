@@ -21,12 +21,44 @@ const tags = [...tagCounts.entries()].sort((a, b) => a[0].localeCompare(b[0]));
 <html lang="en">
 	<head>
 		<BaseHead title={`Tags | ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+		<style>
+			main {
+				width: 720px;
+			}
+			.taxonomy-list {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.75rem;
+				padding: 0;
+				list-style: none;
+			}
+			.taxonomy-list a {
+				display: inline-flex;
+				align-items: center;
+				padding: 0.5rem 0.875rem;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 999px;
+				color: rgb(var(--black));
+				text-decoration: none;
+				transition:
+					background-color 0.2s ease,
+					border-color 0.2s ease,
+					color 0.2s ease,
+					transform 0.2s ease;
+			}
+			.taxonomy-list a:hover {
+				background-color: rgb(var(--accent));
+				border-color: rgb(var(--accent));
+				color: white;
+				transform: translateY(-2px);
+			}
+		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
 			<h1>Tags</h1>
-			<ul>
+			<ul class="taxonomy-list">
 				{
 					tags.map(([tag, count]) => (
 						<li>

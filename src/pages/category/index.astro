@@ -21,12 +21,43 @@ const categories = [...categoryCounts.entries()].sort((a, b) => a[0].localeCompa
 <html lang="en">
 	<head>
 		<BaseHead title={`Categories | ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+		<style>
+			main {
+				width: 720px;
+			}
+			.taxonomy-list {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+				gap: 1rem;
+				padding: 0;
+				list-style: none;
+			}
+			.taxonomy-list a {
+				display: block;
+				padding: 1rem;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 12px;
+				color: rgb(var(--black));
+				text-decoration: none;
+				transition:
+					border-color 0.2s ease,
+					box-shadow 0.2s ease,
+					color 0.2s ease,
+					transform 0.2s ease;
+			}
+			.taxonomy-list a:hover {
+				border-color: rgb(var(--accent));
+				box-shadow: var(--box-shadow);
+				color: rgb(var(--accent));
+				transform: translateY(-2px);
+			}
+		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
 			<h1>Categories</h1>
-			<ul>
+			<ul class="taxonomy-list">
 				{
 					categories.map(([category, count]) => (
 						<li>
