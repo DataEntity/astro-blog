@@ -8,6 +8,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "build:search": "astro build && pagefind --site dist",
+    "pagefind": "pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -16,8 +18,12 @@
     "@astrojs/mdx": "^5.0.6",
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.2",
+    "@pagefind/component-ui": "^1.5.2",
     "astro": "^6.3.3",
     "sharp": "^0.34.3",
     "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "pagefind": "^1.5.2"
   }
 }

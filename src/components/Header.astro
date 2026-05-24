@@ -1,6 +1,7 @@
 ---
 import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
+import '@pagefind/component-ui/css';
 ---
 
 <header>
@@ -12,6 +13,10 @@ import HeaderLink from './HeaderLink.astro';
 			<HeaderLink href="/category">Categories</HeaderLink>
 			<HeaderLink href="/tags">Tags</HeaderLink>
 			<HeaderLink href="/about">About</HeaderLink>
+			<div class="search-control">
+				<pagefind-modal-trigger></pagefind-modal-trigger>
+				<pagefind-modal></pagefind-modal>
+			</div>
 		</div>
 		<!-- <div class="social-links">
 			<a href="https://m.webtoo.ls/@astro" target="_blank">
@@ -44,6 +49,9 @@ import HeaderLink from './HeaderLink.astro';
 		</div> -->
 	</nav>
 </header>
+<script>
+	import '@pagefind/component-ui';
+</script>
 <style>
 	header {
 		margin: 0;
@@ -64,12 +72,29 @@ import HeaderLink from './HeaderLink.astro';
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		gap: 1rem;
+	}
+	.internal-links {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+		gap: 0.25rem;
 	}
 	nav a {
 		padding: 1em 0.5em;
 		color: var(--black);
 		border-bottom: 4px solid transparent;
 		text-decoration: none;
+	}
+	.search-control {
+		display: inline-flex;
+		align-items: center;
+		margin-left: 0.5rem;
+	}
+	.search-control pagefind-modal-trigger {
+		display: inline-flex;
+		align-items: center;
 	}
 	nav a.active {
 		text-decoration: none;
@@ -89,6 +114,12 @@ import HeaderLink from './HeaderLink.astro';
 		nav a {
 			padding: 0.875em 0.35em;
 			font-size: 0.875em;
+		}
+		.internal-links {
+			gap: 0;
+		}
+		.search-control {
+			margin-left: 0.25rem;
 		}
 		.social-links {
 			display: none;
