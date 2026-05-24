@@ -1,7 +1,7 @@
 ---
 title: 有關更換blog引擎的公告
 author: Kirishima
-pubDate: 2025-10-24
+pubDate: 2026-05-25
 description:
 category: Announcement
 heroImage: ../../../../assets/heroImage-01.jpg
