@@ -3,9 +3,13 @@ title: 有關更換blog引擎的公告
 author: Kirishima
 pubDate: 2025-10-24
 description:
-category: Vignettes
+category: Announcement
+heroImage:
 tags:
   - Blog
+  - Astro
+  - 11ty
+  - Migration
 ---
 
 I write this not knowing to whom.Maybe to myself.Maybeto you, though you will never read it. I don't know howmuch time I have left.My hands shake so badly I can'tlight a match on the first try.Today I am in the churchagain.We used to come here together, but you stoppedcoming.And then so did I.I can no longer remember yourface.I cannot recall the colour of your eyes.
