@@ -8,9 +8,16 @@ import { SITE_TITLE } from '../../consts';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');
-	const categories = [...new Set(posts.flatMap((post) => (post.data.category ? [post.data.category] : [])))];
+	const categorySet = new Set<string>();
 
-	return categories.map((category) => ({
+	for (const post of posts) {
+		const category = post.data.category;
+		if (typeof category === 'string' && category) {
+			categorySet.add(category);
+		}
+	}
+
+	return [...categorySet].map((category) => ({
 		params: { category: encodeURIComponent(category) },
 		props: { category },
 	}));
@@ -18,8 +25,11 @@ export async function getStaticPaths() {
 
 const { category } = Astro.props;
 const posts = (await getCollection('blog'))
-	.filter((post) => post.data.category === category)
-	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+	.filter((post: CollectionEntry<'blog'>) => post.data.category === category)
+	.sort(
+		(a: CollectionEntry<'blog'>, b: CollectionEntry<'blog'>) =>
+			b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+	);
 type BlogPost = CollectionEntry<'blog'>;
 ---
 
