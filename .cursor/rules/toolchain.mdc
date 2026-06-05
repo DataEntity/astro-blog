@@ -1,0 +1,20 @@
+---
+description: 固定工具链：pnpm + Volta（用户默认偏好）
+alwaysApply: true
+---
+
+# 固定工具链
+
+用户默认工具链：**pnpm**（包管理器）+ **Volta**（Node 版本管理）。执行安装、脚本、构建等任务时一律优先使用，不要擅自改用 npm / yarn / nvm / fnm。
+
+- **包管理器**：默认 `pnpm`，不要用 `npm` 或 `yarn`
+  - 安装依赖：`pnpm install`
+  - 开发：`pnpm dev`
+  - 构建：`pnpm run build`
+  - 添加依赖：`pnpm add` / `pnpm add -D`
+- **Node 版本管理**：使用 [Volta](https://volta.sh/)（不要用 nvm/fnm 替代，除非用户明确要求）
+- **框架**：Astro 静态博客（`astro dev` / `astro build`）
+- **搜索索引**：构建后由 Pagefind 生成（已集成在 `pnpm run build`）
+- **格式化**：Prettier（`.prettierrc`）
+
+其他常规约定（Git、TypeScript、Shell 等）按常见最佳实践处理，无需特殊替代方案。
