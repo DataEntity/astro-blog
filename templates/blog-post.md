@@ -36,5 +36,5 @@ category 常用值:
   import HeadNotice from "../../../../components/HeadNotice.astro";
   <HeadNotice type="translation" />
 
-  type 可选: translation | repost | controversial
+  type 可选: translation | repost | controversial | media
 -->

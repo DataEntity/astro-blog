@@ -1,5 +1,5 @@
 ---
-type NoticeType = "translation" | "repost" | "controversial";
+type NoticeType = "translation" | "repost" | "controversial" | "media";
 
 interface Props {
   type?: NoticeType;
@@ -23,6 +23,11 @@ const notices: Record<NoticeType, { title: string; text: string; zh: string }> =
       title: "Content Notice",
       text: "This article may involve controversial, sensitive, or disputed topics. The content is provided for reference and discussion, and does not necessarily represent the views of this site.",
       zh: "本文可能涉及具爭議性、敏感或存在分歧的議題，內容僅供參考與討論，不必然代表本站立場。",
+    },
+    media: {
+      title: "Media Notice",
+      text: "This blog may include images, audio, video, or other media whose source or copyright ownership is unclear, or whose use may not have been authorized. If you are the rights holder and believe any material has been used improperly, please contact the site maintainer.",
+      zh: "本博客內可能含有來源或版權歸屬不明、或未經授權使用的圖片、音頻、視頻或其他媒體內容。若您為相關權利人並認為內容使用不當，請聯繫站點維護者。",
     },
   };
 
