@@ -10,7 +10,7 @@ author: Kirishima
 category: Vignettes
 tags:
   - example
-# heroImage: ../../../../assets/heroImage-02.jpg
+# heroImage: ../../../../../../assets/heroImage-02.jpg
 ---
 
 正文从这里开始。
