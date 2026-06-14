@@ -13,7 +13,7 @@ tags:
 # heroImage: ../../../../../../assets/heroImage-02.jpg
 ---
 
-正文从这里开始。
+正文从这里开始
 
 <!--
 字段说明（定义于 src/content.config.ts）:
