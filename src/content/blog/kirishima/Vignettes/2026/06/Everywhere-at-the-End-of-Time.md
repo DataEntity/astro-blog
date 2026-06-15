@@ -2,6 +2,7 @@
 title: "Everywhere at the End of Time"
 description: "理想與現實的差距"
 pubDate: 2026-06-14
+updatedDate: 2026-06-14T19:56:00
 author: Kirishima
 category: Vignettes
 tags:
