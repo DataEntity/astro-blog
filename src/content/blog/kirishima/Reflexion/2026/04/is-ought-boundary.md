@@ -8,9 +8,7 @@ tags:
   - epistemology
   - boundaries
   - ethics
-matrixDecrypt: true
-matrixDuration: 500
-heroImage: ../../../../../../assets/2026-06-18_044254.jpg
+heroImage: ../../../../../../assets/photos/2026-06-18_044254.jpg
 ---
 
 这像是康德会讨论的问题.这个问题如果从底层描述,那便是

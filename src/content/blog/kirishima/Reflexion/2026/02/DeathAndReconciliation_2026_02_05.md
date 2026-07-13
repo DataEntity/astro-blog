@@ -9,6 +9,7 @@ tags:
   - nihilism
   - reconciliation
   - existentialism
+heroImage: ../../../../../../assets/photos/2026-06-18_044254.jpg
 ---
 
 <!--

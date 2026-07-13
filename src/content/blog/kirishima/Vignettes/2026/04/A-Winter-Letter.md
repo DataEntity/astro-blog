@@ -8,7 +8,7 @@ tags:
   - letter
   - winter
   - well-wishes
-heroImage: ../../../../../../assets/2026-06-18_044254.jpg
+heroImage: ../../../../../../assets/photos/2026-06-18_044254.jpg
 ---
 
 敬啓者

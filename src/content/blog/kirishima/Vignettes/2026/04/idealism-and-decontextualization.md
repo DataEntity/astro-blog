@@ -9,7 +9,7 @@ tags:
   - interpretation
   - social-narrative
   - meaning
-heroImage: ../../../../../../assets/2026-06-18_044254.jpg
+heroImage: ../../../../../../assets/photos/2026-06-18_044254.jpg
 ---
 
 天氣一冷我總是想到小時候看過的一本書中的劇情,苦兒流浪記中衛塔里斯摟著雷米死在暴風雪的那個晚上,印象裡對那時的描寫很深."雖然還是很冷,但至少沒有冷風呼嘯了"

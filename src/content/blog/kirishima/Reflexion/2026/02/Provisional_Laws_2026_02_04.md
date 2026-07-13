@@ -9,6 +9,7 @@ tags:
   - induction
   - survivorship-bias
   - epistemology
+heroImage: ../../../../../../assets/photos/2026-06-18_044254.jpg
 ---
 
 <!--
