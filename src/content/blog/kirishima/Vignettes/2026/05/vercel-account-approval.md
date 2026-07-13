@@ -7,6 +7,7 @@ category: Vignettes
 tags:
   - technology
   - systems
+heroImage: ../../../../../../assets/2026-06-18_044254.jpg
 ---
 
 沒想到居然真的通過了.因爲用了proton的alias功能,都已經準備用主郵箱了,給我通過了.審核真的挺給力的

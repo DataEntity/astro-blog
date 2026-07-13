@@ -8,6 +8,7 @@ tags:
   - psychology
   - death
   - metacognition
+heroImage: ../../../../../../assets/2026-06-18_044254.jpg
 ---
 
 <div class="img-photo">
