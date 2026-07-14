@@ -11,6 +11,7 @@ tags:
   - teleology
   - evolution
   - cognition
+HeroImage: ../../../../../../assets/2026-07-14-180941_1210_17.jpg
 ---
 
 不過我説真的, `biological agency` 這個詞實際上并沒有統一定義
