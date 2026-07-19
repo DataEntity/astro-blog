@@ -1,5 +1,5 @@
 ---
-title: "個人主義是否會更讓人傾向於將氣候問題理解爲個人選擇問題嗎?"
+title: "個人主義是否會更讓人傾向於將氣候問題理解爲個人選擇問題?"
 description: ""
 pubDate: 2026-07-19
 author: Kirishima
