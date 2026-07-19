@@ -1,5 +1,4 @@
 ---
-# 必填
 title: "個人主義是否會更讓人傾向於將氣候問題理解爲個人選擇問題嗎?"
 description: ""
 pubDate: 2026-07-19
@@ -32,27 +31,3 @@ The Guardian 最近發表的一篇文章邀請了英國的一名氣候科學家 
 個人主義實際上也影響了集體想象(比如人類共同體), 氣候變化是一種典型的集體行動困境(collective action problem), A國減少排放, 但B國不減; 一家公司提高成本使用清潔能用, 另一家公司仍然選擇廉價化石能源, 單方面成本增加, 但收益由全球共享. 這類問題與囚徒困境類似, 國家與個體都面臨著如果其他人不配合, 自身單獨行動的成本很高的問題. 然而個人主義强調: 我的自由, 生活方式與選擇權, 氣候治理層面我們需要長期制度安排, 集體約束與短期利益交換, 這兩者之間天然存在張力. 不過, 我個人認爲標題的個人主義導致氣候漠視本身也有問題, 歷史上造成大規模排放的因素往往不是個體因素, 而是 `工業化` `化石經濟來源` `全球供應鏈`與`國家發展模式`, 一個高度集體主義國家考慮到發展要求也可能大規模排放. 如果目標是快速工業化, 反而可能動員更多資源發展高碳產業, 集體主義只是在集體困境下與現代社會的個人主義碎片化責任的相對於個體主義國家阻力更小, 并不會自動開始解決囚徒問題式的氣候問題.
 
 現代社會製造了全球性風險(氣候變化, 核泄漏, 金融危機), 但傳統制度未必能及時有效的做出處理, 於是個體被要求自行管理越來越多風險, 使得社會製作出的問題被個人承擔. 但是個人主義也提供了環境運動的基礎, 個人主義不是讓人天然漠視氣候, 而是可能讓人用 `私人選擇` 框架理解一個需要 `集體政治行動` 才能解決的問題. 當個人感受到自己既負責又無力時, 冷漠和犬儒主義就容易產生
-
-<!--
-字段说明（定义于 src/content.config.ts）:
-
-  title         string    必填    文章标题
-  description   string    必填    摘要 / SEO 描述（可为空）
-  pubDate       date      必填    发布日期，格式 YYYY-MM-DD
-  author        string    选填    作者
-  updatedDate   date      选填    最后更新日期
-  category      string    选填    分类
-  tags          string[]  选填    标签列表
-  heroImage     image     选填    头图路径（相对本文件，指向 src/ 内资源）
-
-category 常用值:
-  Announcement | Development | Excerpt | Fragments
-  Novels | Reflexion | Report | Vignettes
-
-使用 Astro 组件时，将扩展名改为 .mdx，例如:
-
-  import HeadNotice from "../../../../components/HeadNotice.astro";
-  <HeadNotice type="translation" />
-
-  type 可选: translation | repost | controversial | media
--->
